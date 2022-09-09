@@ -1,0 +1,45 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8470169b/canvas/f9"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "wappenbeschreibung",
+            "purpose": "describing",
+            "creator": {
+                "id": "sopheck",
+                "name": "Sophie Eckenstaler"
+            },
+            "created": "2022-09-09T14:32:20.873Z",
+            "modified": "2022-09-09T14:32:30.106Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "sopheck",
+            "purpose": "tagging",
+            "creator": {
+                "id": "sopheck",
+                "name": "Sophie Eckenstaler"
+            },
+            "created": "2022-09-09T14:32:40.070Z",
+            "modified": "2022-09-09T14:32:41.214Z"
+        }
+    ],
+    "target": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8470169b/canvas/f9",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"692.994384765625,437.44317626953125 980.6448364257812,438.6220703125 959.4246826171875,683.832275390625 862.7553100585938,772.2493896484375 806.1683349609375,771.0704956054688 701.2467041015625,660.2543334960938\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8470169b/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5cb9955c-9f8e-445b-9577-fb4648dcbf00.json",
+    "motivation": "commenting"
+}
