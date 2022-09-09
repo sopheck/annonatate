@@ -1,0 +1,35 @@
+---
+canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "describing",
+            "creator": {
+                "id": "sopheck",
+                "name": "Sophie Eckenstaler"
+            },
+            "created": "2022-09-09T14:02:05.504Z",
+            "modified": "2022-09-09T14:02:11.927Z"
+        }
+    ],
+    "target": {
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1878.1307373046875,1882.7615966796875,2635.5367431640625,966.3634033203125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "18b4f826-7809-43bf-8c3a-1f2ed4bcf1cf.json",
+    "motivation": "commenting"
+}
