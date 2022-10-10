@@ -1,0 +1,35 @@
+---
+canvas: "https://digi.ub.uni-heidelberg.de/diglit/iiif/cpg848/canvas/0007"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sopheck",
+                "name": "Sophie Eckenstaler"
+            },
+            "created": "2022-10-10T16:49:09.495Z",
+            "modified": "2022-10-10T16:49:09.934Z"
+        }
+    ],
+    "target": {
+        "source": "https://digi.ub.uni-heidelberg.de/diglit/iiif/cpg848/canvas/0007",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=173.77957153320312,279.6003723144531,277.2494201660156,361.5591735839844"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://sopheck.github.io/annonatate/manifests/iiif/cpg848/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "42349a6b-2fb1-480d-870e-c3e8107be786.json",
+    "motivation": "commenting"
+}
