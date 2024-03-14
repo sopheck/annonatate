@@ -1,10 +1,19 @@
 images:
-- https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
-- https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
-- https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
-manifests:
-- https://gallica.bnf.fr/iiif/ark:/12148/btv1b8470169b/manifest.json
-settings:
-  tempuser: notenabled
-  viewer: default
-  widgets: comment-with-purpose, tag, geotagging
+- iiif: false
+  thumbnail: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
+  title: ''
+  url: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+- iiif: true
+  thumbnail: https://gallica.bnf.fr/ark:/12148/btv1b8470169b.thumbnail
+  title: "BnF. D\xE9partement des Manuscrits. Fran\xE7ais 5230"
+  url: https://gallica.bnf.fr/iiif/ark:/12148/btv1b8470169b/manifest.json
+settings: {}
+version: '2.1'
