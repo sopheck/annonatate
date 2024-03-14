@@ -1,0 +1,38 @@
+---
+canvas: "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174892"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sopheck",
+                "name": "Sophie Eckenstaler"
+            },
+            "created": "2024-03-14T15:03:04.778Z",
+            "modified": "2024-03-14T15:03:15.745Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://sopheck.github.io/annonatate/manifests/iiif.harvardartmuseums.org/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174892",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=624.849609375,679.4055786132812,693.67138671875,830.9789428710938"
+        }
+    },
+    "id": "68a213be-3bd7-4cef-a3c6-27e12aada1bf.json",
+    "motivation": "commenting"
+}
